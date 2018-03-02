@@ -24,7 +24,7 @@ export class ApiServices {
   BASE_URL: string;
 
   constructor(private http: HttpClient) {
-    this.BASE_URL = '/';
+    this.BASE_URL = 'http://127.0.0.1';
   }
 
   httpGetData(): Observable<any> {
