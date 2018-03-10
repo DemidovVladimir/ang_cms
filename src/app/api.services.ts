@@ -28,7 +28,7 @@ export class ApiServices {
   }
 
   httpGetData(): Observable<any> {
-    return this.http.get(`${this.BASE_URL}/api/v1/categories`);
+    return this.http.get(`${this.BASE_URL}/api/v1/content/whateverid/categories`);
     // return Observable.of(mockedData)
     //   .catch(error => Observable.throw(error));
   }
